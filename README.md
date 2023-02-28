@@ -14,80 +14,118 @@ Instructions to run demo:
 6) Press run. 
 
 Expected output:
+
 Now reading [Filepath]\Week1.xls
+
 Now reading [Filepath]\Week2.xls
+
 Now reading [Filepath]\Week3.xls
+
 Now reading [Filepath]\Week4.xls
+
 Now reading [Filepath]\Week5.xls
+
 For the following reference frame
      2
+
 rotate this many degrees XY Plane
    -2.6495
+
 rotate this many degrees XZ Plane
     4.7499
+
 rotate this many degrees YZ plane
    -1.9524
+
 translate XY Plane this many microns
    35.2929
+
 translate XZ Plane this many microns
     4.4255
+
 translate YZ plane this many microns
   -26.9786
+
 scaling factor
+
 ans =
     1.0175
 
 For the following reference frame
      3
+
 rotate this many degrees XY Plane
     1.2070
+
 rotate this many degrees XZ Plane
     0.2535
+
 rotate this many degrees YZ plane
     0.7208
+
 translate XY Plane this many microns
    -6.7286
+
 translate XZ Plane this many microns
   -16.5414
+
 translate YZ plane this many microns
    -7.1804
+
 scaling factor
+
 ans =
-    1.0365
+1.0365
 
 For the following reference frame
      4
+
 rotate this many degrees XY Plane
    -0.7895
+
 rotate this many degrees XZ Plane
    -1.9727
+
 rotate this many degrees YZ plane
     0.2842
+
 translate XY Plane this many microns
-   -5.4535
+-5.4535
+
 translate XZ Plane this many microns
     8.207
+
 translate YZ plane this many microns
     8.923
+
 scaling factor
+
 ans =
-    0.9957
+0.9957
 
 For the following reference frame
      5
+
 rotate this many degrees XY Plane
    -1.0973
+
 rotate this many degrees XZ Plane
    -0.6203
+
 rotate this many degrees YZ plane
     1.7307
+
 translate XY Plane this many microns
   -29.3592
+
 translate XZ Plane this many microns
   -15.3199
+
 translate YZ plane this many microns
   -20.4002
+
 scaling factor
+
 ans =
     1.0736
     
