@@ -5,10 +5,20 @@ Code was run on Matlab R2022a with Windows 10 OS
 Installation guide:
 Install Matlab
 
+Expected run time for demo on a normal desktop computer: <1 minute
+
+Instructions for use:
+1) In Imaris, do a rough alignment of data and find the ID for fiducials that should be in the same position from week-to-week. Go to statistics tab and export all data as “.xls”.
+2) Place the exported data into one folder and identify the folder path in the code
+3) Update the fiducial ID information in the matlab code on lines 10-14, with the ID numbers in each column corresponding to the same object across different weeks.
+4) Change whether you want to scale the data (stretch/shrink) to improve alignment across weeks and set “true” if yes, or “false” if no.
+5) Run code
+
+
 Instructions to run demo:
-1) Place “Alignment_Code_Easy_cleanup.mlx” and “absor” into the same folder.
+1) Place “Alignment_Code_Easy_cleanup.m” and “absor” into the same folder.
 2) Place statistics files that contain positional data for each reference frame, exported from Imaris, into a folder. Do not have any files other than those you wish to analyze in this folder.
-3) Open the “Alignment_Code_Easy_cleanup.mlx” in Matlab
+3) Open the “Alignment_Code_Easy_cleanup.m” in Matlab
 4) Add the folders containing the code and data to Matlab’s search path by right clicking the folder name on the left under the current folder panel and selecting “Add to path>Selected Folders”
 5) In the Matlab code, specify the folder where the data files live using the same format following “myFolder = ….” On line 5. 
 6) Press run. 
@@ -24,6 +34,7 @@ Now reading [Filepath]\Week3.xls
 Now reading [Filepath]\Week4.xls
 
 Now reading [Filepath]\Week5.xls
+
 
 For the following reference frame
      2
@@ -51,6 +62,7 @@ scaling factor
 ans =
     1.0175
 
+
 For the following reference frame
      3
 
@@ -76,6 +88,7 @@ scaling factor
 
 ans =
 1.0365
+
 
 For the following reference frame
      4
@@ -103,6 +116,7 @@ scaling factor
 ans =
 0.9957
 
+
 For the following reference frame
      5
 
@@ -129,11 +143,3 @@ scaling factor
 ans =
     1.0736
     
-Expected run time for demo on a normal desktop computer: <1 minute
-
-Instructions for use:
-1) In Imaris, do a rough alignment of data and find the ID for fiducials that should be in the same position from week-to-week. Go to statistics tab and export all data as “.xls”.
-2) Place the exported data into one folder and identify the folder path in the code
-3) Update the fiducial ID information in the matlab code on lines 10-14, with the ID numbers in each column corresponding to the same object across different weeks.
-4) Change whether you want to scale the data (stretch/shrink) to improve alignment across weeks and set “true” if yes, or “false” if no.
-5) Run code
